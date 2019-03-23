@@ -4,6 +4,6 @@ class ApplicationController < ActionController::Base
   protect_from_forgery with: :exception
 
   def hello
-    render html: "Welcome to Radiant Realms."
+    render html: "Welcome to Radiant Realms.  Please hold."
   end
 end

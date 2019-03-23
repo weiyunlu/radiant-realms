@@ -1,5 +1,5 @@
 This is the website for Radiant Realms, Weiyun's solo music project.
 
-Currently under construction...
+Currently under construction, please hold...
 
-Temp URL: https://glacial-sierra-39929.herokuapp.com/
+Temp URL: https://radiantrealms.herokuapp.com/
