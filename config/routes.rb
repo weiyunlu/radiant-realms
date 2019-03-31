@@ -4,6 +4,6 @@ Rails.application.routes.draw do
   get 'gallery' => 'static_pages#gallery', as: :gallery
   get 'contact' => 'static_pages#contact', as: :contact
   Rails.application.routes.draw do
-    root 'home'
+    root :home
   end
 end
