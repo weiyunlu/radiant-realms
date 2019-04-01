@@ -3,6 +3,15 @@
 @import "font-awesome";
 @import url(//db.onlinewebfonts.com/c/86a2c93d1233f6cb69a56f1e271782bc?family=FF+Parango);
 
+@font-face {font-family: "FF Parango";
+  src: url("//db.onlinewebfonts.com/t/86a2c93d1233f6cb69a56f1e271782bc.eot");
+  src: url("//db.onlinewebfonts.com/t/86a2c93d1233f6cb69a56f1e271782bc.eot?#iefix") format("embedded-opentype"),
+  url("//db.onlinewebfonts.com/t/86a2c93d1233f6cb69a56f1e271782bc.woff2") format("woff2"),
+  url("//db.onlinewebfonts.com/t/86a2c93d1233f6cb69a56f1e271782bc.woff") format("woff"),
+  url("//db.onlinewebfonts.com/t/86a2c93d1233f6cb69a56f1e271782bc.ttf") format("truetype"),
+  url("//db.onlinewebfonts.com/t/86a2c93d1233f6cb69a56f1e271782bc.svg#FF Parango") format("svg");
+}
+
 /* typography */
 
 h1, h2, h3, h4, h5, h6 {
