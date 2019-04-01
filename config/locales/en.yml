@@ -1,2 +1,6 @@
 en:
-  hello: "Hello world"
+  welcome: "Welcome"
+  about: "About"
+  gallery: "Gallery"
+  contact: "Contact"
+  under_construction: "Under construction"
