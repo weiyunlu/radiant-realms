@@ -11,13 +11,13 @@ gem 'jbuilder'
 gem 'bootstrap-sass'
 gem 'font-awesome-rails'
 gem 'i18n'
-gem 'pg'
 
 group :development, :test do
   gem 'byebug'
 end
 
 group :development do
+  gem 'sqlite'
   gem 'web-console'
   gem 'listen'
   gem 'spring'
@@ -33,6 +33,7 @@ group :test do
 end
 
 group :production do
+  gem 'pg'
 end
 
 # Windows does not include zoneinfo files, so bundle the tzinfo-data gem
