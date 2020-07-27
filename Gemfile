@@ -11,13 +11,13 @@ gem 'jbuilder'
 gem 'bootstrap-sass'
 gem 'font-awesome-rails'
 gem 'i18n'
-gem 'sqlite3'
 
 group :development, :test do
   gem 'byebug'
 end
 
 group :development do
+  gem 'sqlite'
   gem 'web-console'
   gem 'listen'
   gem 'spring'
