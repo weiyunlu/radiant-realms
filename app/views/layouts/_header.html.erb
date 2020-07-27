@@ -3,15 +3,15 @@
     <%= link_to "Radiant Realms", :home, id: "logo" %>
     <nav>
       <ul class="navtext nav navbar-nav navbar-right">
-        <li><%= link_to "Welcome", :home %></li>
-        <li><%= link_to "About", :about %></li>
-        <li><%= link_to "Gallery", :gallery %></li>
-        <li><%= link_to "Contact", :contact %></li>
+        <li><%= link_to t('welcome'), :home %></li>
+        <li><%= link_to t('about'), :about %></li>
+        <li><%= link_to t('gallery'), :gallery %></li>
+        <li><%= link_to t('contact'), :contact %></li>
         <li><a href="https://www.facebook.com/radiantrealms/" target ="_blank"> <i class="fa fa-facebook fa-1x"></i></a></li>
         <li><a href="https://www.youtube.com/RosalyBDF/" target ="_blank"> <i class="fa fa-youtube fa-1x"></i></a></li>
-        <li><%= link_to "EN", "#" %></li>
-        <li><%= link_to "FR", "#" %></li>
-        <li><%= link_to "中文", "#" %></li>
+        <li><%= link_to "EN", url_for(locale: 'en') %></li>
+        <li><%= link_to "FR", url_for(locale: 'fr') %></li>
+        <li><%= link_to "中文", url_for(locale: 'zh-CN') %></li>
       </ul>
     </nav>
   </div>

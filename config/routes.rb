@@ -3,6 +3,7 @@ Rails.application.routes.draw do
   get '/about', to: 'static_pages#about', as: :about
   get '/gallery', to: 'static_pages#gallery', as: :gallery
   get '/contact', to: 'static_pages#contact', as: :contact
+
   Rails.application.routes.draw do
     root 'static_pages#home'
   end
