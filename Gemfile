@@ -1,5 +1,6 @@
 source 'https://rubygems.org'
 
+gem 'actionview', ">= 6.0.3.3"
 gem 'rails'
 gem 'puma'
 gem 'sass-rails'
