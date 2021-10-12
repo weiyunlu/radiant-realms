@@ -126,7 +126,7 @@ GEM
       minitest (>= 5.0)
       ruby-progressbar
     nenv (0.3.0)
-    nio4r (2.5.7)
+    nio4r (2.5.8)
     nokogiri (1.11.1)
       mini_portile2 (~> 2.5.0)
       racc (~> 1.4)
@@ -137,7 +137,7 @@ GEM
     pry (0.13.1)
       coderay (~> 1.1)
       method_source (~> 1.0)
-    puma (4.3.6)
+    puma (4.3.9)
       nio4r (~> 2.0)
     racc (1.5.2)
     rack (2.2.3)
